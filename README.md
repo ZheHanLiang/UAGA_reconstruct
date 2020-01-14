@@ -33,7 +33,7 @@ We used three public datasets in the paper:
 * [Flickr](http://lfs.aminer.cn/lab-datasets/multi-sns/livejournal.tar.gz)
 * [MySpace](http://lfs.aminer.cn/lab-datasets/multi-sns/myspace.tar.gz)
 
-You can also get the dataset in *--graph data*.  
+You can also get the dataset in *-graph data*.  
 For more details, please refer to [here](https://www.aminer.cn/cosnet).
 
 ### Embedding format
