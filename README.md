@@ -1,4 +1,5 @@
 # UAGA_reconstruct
+## Introduction
 This is the **reconstructed** code for *[Unsupervised Adversarial Graph Alignment with Graph Embedding](https://arxiv.org/pdf/1907.00544.pdf)*.  
 This new code optimized and simplified the [original code](https://github.com/ZheHanLiang/UAGA).
 Part of iUAGA's code will be updated later.
@@ -20,7 +21,7 @@ You can also run the *execute.sh* in cmd to launch the program, including the th
 ```
 sh execute.sh
 ```
-For more details, please refer to the *execute.sh*.
+For more details, please refer to the [execute.sh](https://github.com/ZheHanLiang/UAGA_reconstruct/blob/master/UAGA/execute.sh).
 
 ## Dependencies
 * Python 2/3 with [NumPy](http://www.numpy.org/)/[SciPy](https://www.scipy.org/)
@@ -32,8 +33,7 @@ We used three public datasets in the paper:
 * [Flickr](http://lfs.aminer.cn/lab-datasets/multi-sns/livejournal.tar.gz)
 * [MySpace](http://lfs.aminer.cn/lab-datasets/multi-sns/myspace.tar.gz)
 
-You can also get the dataset in *graph data*.
-
+You can also get the dataset in *-graph data*.  
 For more details, please refer to [here](https://www.aminer.cn/cosnet).
 
 ### Embedding format
