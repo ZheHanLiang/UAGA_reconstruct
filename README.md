@@ -1,5 +1,6 @@
 # UAGA_reconstruct
 This is the **reconstructed** code for *[Unsupervised Adversarial Graph Alignment with Graph Embedding](https://arxiv.org/pdf/1907.00544.pdf)*.
+
 This new code optimized and simplified the [original code](https://github.com/ZheHanLiang/UAGA).
 Part of iUAGA's code will be updated later.
 
