@@ -131,7 +131,7 @@ def get_two_subgraph_scores(embeddings1, embeddings2, method, operation):
         top = hq.nsmallest(10,range(len(embeddings2)), similarity_matrix[i].take)
         if operation=='evaluate': # 评估时，对top进行解析，得到各指标下匹配正确的数量
             for num in range(10):
-                if num == 9 and top[9] == i:
+                if num == 9 and top[num] == i:
                     top1_count += 1
                     top5_count += 1
                     top10_count += 1
